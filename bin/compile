@@ -20,6 +20,9 @@ export PATH="/app/vendor/opencv:\$PATH"
 export PYTHONPATH="/app/:/app/vendor/opencv/opencv-3.2.0"
 EOF
 
+echo "Installing libsm6 libxrender1 libfontconfig1"
+apt-get install libsm6 libxrender1 libfontconfig1
+
 echo "Done <-----"
 exit 0
 
